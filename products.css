@@ -1,0 +1,166 @@
+body{
+margin: 0px;
+}
+#top{
+background-color:black;
+padding-top: 35px;
+height: 80px;
+color:white;
+font-size: 25px;
+width:100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+	font-family: "Lucida Sans Unicode";
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+	margin: 10px;
+	text-align: center;
+	
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+#leftside{
+position: relative;
+left: 50px;
+top: 100px;
+margin: 0px;
+ }
+.p01{
+ font-family: 'Lucida Sans Unicode';
+ font-size: 20px;
+ position: relative;
+ left: 25px;
+ top: -20px;
+
+}
+body {
+	color: $font-color;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#right{
+margin-left: 310px;
+margin-top: -200px;
+}
+img {
+  width:200px;
+  height:200px;
+  vertical-align:bottom;
+opacity: 1;
+filter: alpha(opacity=100);
+}
+img:hover{
+opacity: 0.3;
+filter: alpha(opacity=30);
+
+}
+
+button {
+  
+  border-radius: 8px;
+  font-family: "Lucida Sans Unicode";
+  color: #ffffff;
+  font-size: 13px;
+  background: #000000;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #202224;
+  text-decoration: none;
+}
+h1 {
+  margin:10px 0 0;
+  font-size:14px;
+  font-family: "Lucida Sans Unicode";
+}
+
+p{
+font-size: 14px;}
+.products {
+  width:1000px;
+  padding: 10px 10px 0 10px;
+  margin: 0;
+  list-style: none;
+  background: white;
+  
+  display: flex;
+  
+
+  flex-flow: row wrap;
+  
+  
+  justify-content: space-between;
+}
+
+.product {
+
+  flex: 0 0 auto;
+  padding: 10px;
+  
+  margin-bottom:10px;
+
+  background:white;
+  color: black;
+  text-align: center;
+}
+#cart{
+background-color: black;
+border-radius: 5px;
+position: relative;
+left: 25px;
+width: 160px;
+height:35px;
+color: blue;
+font-family: Lucida Sans Unicode;
+padding-top: 12px;}
+#cart:hover{
+background-color: #202224;
+}
+#img1{
+height: 25px;
+width: 25px;
+padding-top: 2px ;
+padding-left:10px;
+}
+a{
+text-decoration: none;
+color:white;
+}
+.add{
+
+    height: 35px;
+    width: 170px;
+}
+a.addtocart{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -18px;
+    font-family: Lucida Sans Unicode;
+}
+#home{
+    top:-20px;
+    float:right;
+    left:700px;
+    height:50px;
+    width:50px;
+}
