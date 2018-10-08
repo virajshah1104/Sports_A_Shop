@@ -1,0 +1,20 @@
+User-agent: Googlebot
+Disallow: /Remove.php
+Disallow: /Logout.php
+
+User-agent: MSNBot,Slurp
+Disallow: /Contact.php
+Disallow: /Cart.php
+Disallow: /Addtocart.php
+Disallow: /Receipt.php
+
+User-agent: *
+Disallow: /Readme.md
+Disallow: /sprts-a-shop.sql
+Disallow: /*.png$
+Disallow: /*.jpg$
+Disallow: /*.css$
+
+Crawl-delay: 5
+
+Sitemap: https://virajshah1104.github.io/Sports-Website/sitemap.xml
